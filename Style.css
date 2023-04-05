@@ -1,0 +1,245 @@
+@media screen and (max-width: 375px) {
+
+    body {
+        Width: 375px;
+        Height: 667px;
+        background: #F2EAE2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .container {
+        Width: 343px;
+        Height: 624px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .chanel {
+        max-width: 100%;
+    }
+
+    .chanel1 {
+        display: none;
+    }
+
+    .text {
+        padding: 16px 24px;
+        width: 295px;
+        height: 334px;
+    }
+
+    .parfum {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 5px;
+        color: #6C7289;
+    }
+
+    .essence {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 32px;
+        color: #1C232B;
+    }
+
+    .text1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 23px;
+        color: #6C7289;
+    }
+
+    .price {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: #3D8168;
+        display: flex;
+        margin: 0px 0px;
+
+    }
+
+    span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 23px;
+        text-decoration-line: line-through;
+        color: #6C7289;
+        display: flex;
+        margin: 6px 25px;
+    }
+
+    .shopping {
+        height: 50px;
+        max-width: 100%;
+        position: relative;
+
+    }
+
+    .cart {
+        background: #3D8168;
+        border-radius: 8px;
+        border: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        margin: 12px 0px;
+    }
+
+    .shop {
+        Width: 14.39px;
+        Height: 16px;
+        position: absolute;
+        top: 28px;
+        left: 89px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    body {
+        Width: 1440px;
+        Height: 800px;
+        background: #F2EAE2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+
+    }
+
+    .container {
+        Width: 640px;
+        Height: 450px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .chanel {
+        display: none;
+    }
+
+    .chanel1 {
+        Width: 337.69px;
+        Height: 450px;
+    }
+
+    .text {
+        padding: 16px 39px;
+        width: 253px;
+        height: 334px;
+        margin: -450px 327px;
+    }
+
+    .parfum {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 5px;
+        color: #6C7289;
+    }
+
+    .essence {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 32px;
+        color: #1C232B;
+    }
+
+    .text1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #6C7289;
+
+    }
+
+    .price {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: #3D8168;
+        display: flex;
+        margin: 36px 0px 0px 0px;
+
+    }
+
+    span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 23px;
+        text-decoration-line: line-through;
+        color: #6C7289;
+        display: flex;
+        margin: 6px 25px;
+    }
+
+
+    .shopping {
+        height: 50px;
+        max-width: 100%;
+        position: relative;
+        margin: 16px 0px;
+
+    }
+
+    
+
+    .cart {
+        background: #3D8168;
+        border-radius: 8px;
+        border: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        margin: 12px 0px;
+    }
+
+    .shop {
+        Width: 14.39px;
+        Height: 16px;
+        position: absolute;
+        top: 28px;
+        left: 60px;
+    }
+
+    .cart:hover{
+        background: #1A4032;
+        cursor:pointer;
+    }
+}
